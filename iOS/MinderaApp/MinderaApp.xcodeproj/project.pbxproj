@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8046294020A8871D00C2CEC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046293F20A8871D00C2CEC9 /* AppDelegate.swift */; };
+		8046294220A8871D00C2CEC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046294120A8871D00C2CEC9 /* ViewController.swift */; };
+		8046294520A8871D00C2CEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8046294320A8871D00C2CEC9 /* Main.storyboard */; };
+		8046294720A8872000C2CEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8046294620A8872000C2CEC9 /* Assets.xcassets */; };
+		8046294A20A8872000C2CEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8046294820A8872000C2CEC9 /* LaunchScreen.storyboard */; };
+		8046295520A8872000C2CEC9 /* MinderaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046295420A8872000C2CEC9 /* MinderaAppTests.swift */; };
+		8046296020A8872000C2CEC9 /* MinderaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046295F20A8872000C2CEC9 /* MinderaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8046295120A8872000C2CEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8046293420A8871D00C2CEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8046293B20A8871D00C2CEC9;
+			remoteInfo = MinderaApp;
+		};
+		8046295C20A8872000C2CEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8046293420A8871D00C2CEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8046293B20A8871D00C2CEC9;
+			remoteInfo = MinderaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8046293C20A8871D00C2CEC9 /* MinderaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinderaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8046293F20A8871D00C2CEC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8046294120A8871D00C2CEC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8046294420A8871D00C2CEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8046294620A8872000C2CEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8046294920A8872000C2CEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8046294B20A8872000C2CEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8046295020A8872000C2CEC9 /* MinderaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinderaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8046295420A8872000C2CEC9 /* MinderaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinderaAppTests.swift; sourceTree = "<group>"; };
+		8046295620A8872000C2CEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8046295B20A8872000C2CEC9 /* MinderaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinderaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8046295F20A8872000C2CEC9 /* MinderaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinderaAppUITests.swift; sourceTree = "<group>"; };
+		8046296120A8872000C2CEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8046293920A8871D00C2CEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8046294D20A8872000C2CEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8046295820A8872000C2CEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8046293320A8871D00C2CEC9 = {
+			isa = PBXGroup;
+			children = (
+				8046293E20A8871D00C2CEC9 /* MinderaApp */,
+				8046295320A8872000C2CEC9 /* MinderaAppTests */,
+				8046295E20A8872000C2CEC9 /* MinderaAppUITests */,
+				8046293D20A8871D00C2CEC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8046293D20A8871D00C2CEC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8046293C20A8871D00C2CEC9 /* MinderaApp.app */,
+				8046295020A8872000C2CEC9 /* MinderaAppTests.xctest */,
+				8046295B20A8872000C2CEC9 /* MinderaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8046293E20A8871D00C2CEC9 /* MinderaApp */ = {
+			isa = PBXGroup;
+			children = (
+				8046293F20A8871D00C2CEC9 /* AppDelegate.swift */,
+				8046294120A8871D00C2CEC9 /* ViewController.swift */,
+				8046294320A8871D00C2CEC9 /* Main.storyboard */,
+				8046294620A8872000C2CEC9 /* Assets.xcassets */,
+				8046294820A8872000C2CEC9 /* LaunchScreen.storyboard */,
+				8046294B20A8872000C2CEC9 /* Info.plist */,
+			);
+			path = MinderaApp;
+			sourceTree = "<group>";
+		};
+		8046295320A8872000C2CEC9 /* MinderaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8046295420A8872000C2CEC9 /* MinderaAppTests.swift */,
+				8046295620A8872000C2CEC9 /* Info.plist */,
+			);
+			path = MinderaAppTests;
+			sourceTree = "<group>";
+		};
+		8046295E20A8872000C2CEC9 /* MinderaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8046295F20A8872000C2CEC9 /* MinderaAppUITests.swift */,
+				8046296120A8872000C2CEC9 /* Info.plist */,
+			);
+			path = MinderaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8046293B20A8871D00C2CEC9 /* MinderaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8046296420A8872000C2CEC9 /* Build configuration list for PBXNativeTarget "MinderaApp" */;
+			buildPhases = (
+				8046293820A8871D00C2CEC9 /* Sources */,
+				8046293920A8871D00C2CEC9 /* Frameworks */,
+				8046293A20A8871D00C2CEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinderaApp;
+			productName = MinderaApp;
+			productReference = 8046293C20A8871D00C2CEC9 /* MinderaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8046294F20A8872000C2CEC9 /* MinderaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8046296720A8872000C2CEC9 /* Build configuration list for PBXNativeTarget "MinderaAppTests" */;
+			buildPhases = (
+				8046294C20A8872000C2CEC9 /* Sources */,
+				8046294D20A8872000C2CEC9 /* Frameworks */,
+				8046294E20A8872000C2CEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8046295220A8872000C2CEC9 /* PBXTargetDependency */,
+			);
+			name = MinderaAppTests;
+			productName = MinderaAppTests;
+			productReference = 8046295020A8872000C2CEC9 /* MinderaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8046295A20A8872000C2CEC9 /* MinderaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8046296A20A8872000C2CEC9 /* Build configuration list for PBXNativeTarget "MinderaAppUITests" */;
+			buildPhases = (
+				8046295720A8872000C2CEC9 /* Sources */,
+				8046295820A8872000C2CEC9 /* Frameworks */,
+				8046295920A8872000C2CEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8046295D20A8872000C2CEC9 /* PBXTargetDependency */,
+			);
+			name = MinderaAppUITests;
+			productName = MinderaAppUITests;
+			productReference = 8046295B20A8872000C2CEC9 /* MinderaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8046293420A8871D00C2CEC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = SwitchCase;
+				TargetAttributes = {
+					8046293B20A8871D00C2CEC9 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					8046294F20A8872000C2CEC9 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 8046293B20A8871D00C2CEC9;
+					};
+					8046295A20A8872000C2CEC9 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 8046293B20A8871D00C2CEC9;
+					};
+				};
+			};
+			buildConfigurationList = 8046293720A8871D00C2CEC9 /* Build configuration list for PBXProject "MinderaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8046293320A8871D00C2CEC9;
+			productRefGroup = 8046293D20A8871D00C2CEC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8046293B20A8871D00C2CEC9 /* MinderaApp */,
+				8046294F20A8872000C2CEC9 /* MinderaAppTests */,
+				8046295A20A8872000C2CEC9 /* MinderaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8046293A20A8871D00C2CEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8046294A20A8872000C2CEC9 /* LaunchScreen.storyboard in Resources */,
+				8046294720A8872000C2CEC9 /* Assets.xcassets in Resources */,
+				8046294520A8871D00C2CEC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8046294E20A8872000C2CEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8046295920A8872000C2CEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8046293820A8871D00C2CEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8046294220A8871D00C2CEC9 /* ViewController.swift in Sources */,
+				8046294020A8871D00C2CEC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8046294C20A8872000C2CEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8046295520A8872000C2CEC9 /* MinderaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8046295720A8872000C2CEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8046296020A8872000C2CEC9 /* MinderaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8046295220A8872000C2CEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8046293B20A8871D00C2CEC9 /* MinderaApp */;
+			targetProxy = 8046295120A8872000C2CEC9 /* PBXContainerItemProxy */;
+		};
+		8046295D20A8872000C2CEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8046293B20A8871D00C2CEC9 /* MinderaApp */;
+			targetProxy = 8046295C20A8872000C2CEC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8046294320A8871D00C2CEC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8046294420A8871D00C2CEC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8046294820A8872000C2CEC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8046294920A8872000C2CEC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8046296220A8872000C2CEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8046296320A8872000C2CEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8046296520A8872000C2CEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC2B93AG7F;
+				INFOPLIST_FILE = MinderaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = switchcase.MinderaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8046296620A8872000C2CEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC2B93AG7F;
+				INFOPLIST_FILE = MinderaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = switchcase.MinderaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8046296820A8872000C2CEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC2B93AG7F;
+				INFOPLIST_FILE = MinderaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = switchcase.MinderaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinderaApp.app/MinderaApp";
+			};
+			name = Debug;
+		};
+		8046296920A8872000C2CEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC2B93AG7F;
+				INFOPLIST_FILE = MinderaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = switchcase.MinderaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinderaApp.app/MinderaApp";
+			};
+			name = Release;
+		};
+		8046296B20A8872000C2CEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC2B93AG7F;
+				INFOPLIST_FILE = MinderaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = switchcase.MinderaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinderaApp;
+			};
+			name = Debug;
+		};
+		8046296C20A8872000C2CEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC2B93AG7F;
+				INFOPLIST_FILE = MinderaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = switchcase.MinderaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinderaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8046293720A8871D00C2CEC9 /* Build configuration list for PBXProject "MinderaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8046296220A8872000C2CEC9 /* Debug */,
+				8046296320A8872000C2CEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8046296420A8872000C2CEC9 /* Build configuration list for PBXNativeTarget "MinderaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8046296520A8872000C2CEC9 /* Debug */,
+				8046296620A8872000C2CEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8046296720A8872000C2CEC9 /* Build configuration list for PBXNativeTarget "MinderaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8046296820A8872000C2CEC9 /* Debug */,
+				8046296920A8872000C2CEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8046296A20A8872000C2CEC9 /* Build configuration list for PBXNativeTarget "MinderaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8046296B20A8872000C2CEC9 /* Debug */,
+				8046296C20A8872000C2CEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8046293420A8871D00C2CEC9 /* Project object */;
+}
